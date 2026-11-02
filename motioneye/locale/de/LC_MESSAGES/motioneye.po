@@ -30,75 +30,75 @@ msgstr ""
 msgid "purigado komenciĝis"
 msgstr "Reinigung hat begonnen"
 
-#: motioneye/config.py:1055
+#: motioneye/config.py:1060
 msgid "Device names are only allowed to contain alphanumerical characters, hyphen -, underscore _, plus +, and space"
 msgstr "Gerätenamen dürfen nur alphanumerische Zeichen, Bindestrich -, Unterstrich _, Pluszeichen +, und Leerzeichen enthalten"
 
-#: motioneye/config.py:1059
+#: motioneye/config.py:1064
 msgid "File names are only allowed to contain alphanumerical characters, parenthesis (), forward slash /, dot ., underscore _, hyphen -, space, and a subset of motion conversion specifiers: %C %Y %m %d %H %M %S %I %p %l %q %v %$"
 msgstr "Dateinamen dürfen nur alphanumerische Zeichen, Klammern (), Schrägstrich /, Punkt ., Unterstrich _, Bindestrich -, Leerzeichen, und folgende motion Umwandlungscodes enthalten: %C %Y %m %d %H %M %S %I %p %l %q %v %$"
 
-#: motioneye/config.py:1064
+#: motioneye/config.py:1069
 msgid "Directory names are only allowed to contain alphanumerical characters, space, parenthesis (), forward slash /, dot ., underscore _, and hyphen -"
 msgstr "Verzeichnisnamen dürfen nur alphanumerische Zeichen, Leerzeichen, Klammern (), Schrägstrich /, Punkt ., Unterstrich _, und Bindestrich - enthalten"
 
-#: motioneye/config.py:1069
+#: motioneye/config.py:1074
 msgid "Email addresses are only allowed to contain alphanumerical characters, underscore _, plus +, dot ., at @, caret ^, tilde ~, angle brackets <>, hyphen -, and may be separated by comma, and space"
 msgstr "E-Mail-Adressen dürfen nur alphanumerische Zeichen, Unterstrich _, Pluszeichen +, Punkt ., @-Zeichen, Hochzeichen ^, Tilde ~, spitze Klammern <>, und Bindestrich - enthalten, sowie per Komma , und Leerzeichen voneinander getrennt sein"
 
-#: motioneye/config.py:1074
+#: motioneye/config.py:1079
 msgid "URLs are not allowed to contain caret ^, semicolon ;, or apostrophe '"
 msgstr "URLs dürfen kein Hochzeichen ^, Semikolon ;, oder Apostroph ' enthalten"
 
-#: motioneye/server.py:236
+#: motioneye/server.py:234
 msgid "interrompa signalo ricevita, fermanta …"
 msgstr "Unterbrechungssignal empfangen, schließe …"
 
-#: motioneye/server.py:278
+#: motioneye/server.py:276
 msgid "smb-akcioj postulas radikajn privilegiojn"
 msgstr "SMB-Freigaben erfordern Root-Rechte"
 
-#: motioneye/server.py:285
+#: motioneye/server.py:283
 msgid "bonvolu instali tornado version 3.1 aŭ pli"
 msgstr "Bitte installieren Sie tornado Version 3.1 oder höher"
 
-#: motioneye/server.py:292
+#: motioneye/server.py:290
 msgid "bonvolu instali jinja2"
 msgstr "Bitte installieren Sie jinja2"
 
-#: motioneye/server.py:299
+#: motioneye/server.py:297
 msgid "bonvolu instali pillow aŭ PIL"
 msgstr "Bitte installieren Sie pillow oder PIL"
 
-#: motioneye/server.py:306
+#: motioneye/server.py:304
 msgid "bonvolu instali pycurl"
 msgstr "Bitte installieren Sie pycurl"
 
-#: motioneye/server.py:428
+#: motioneye/server.py:426
 msgid "saluton! ĉi tio estas motionEye-servilo "
 msgstr "Hallo! Dies ist ein MotionEye-Server "
 
-#: motioneye/server.py:443
+#: motioneye/server.py:441
 msgid "The admin and/or surveillance user has no password assigned. Please login to the web interface to set both passwords."
 msgstr "Der Administrator und/oder Überwachungsbenutzer hat kein Password gesetzt. Bitte melden Sie sich an der Weboberfläche an, um beide Passwörter zu setzen."
 
-#: motioneye/server.py:464
+#: motioneye/server.py:462
 msgid "mjpg klienta rubo-kolektanto komenciĝis"
 msgstr "Der mjpg-Client-Garbage-Collector wurde gestartet"
 
-#: motioneye/server.py:481
+#: motioneye/server.py:479
 msgid "servilo komenciĝis"
 msgstr "Der Server wurde gestartet"
 
-#: motioneye/server.py:489
+#: motioneye/server.py:487
 msgid "servilo haltis"
 msgstr "Der Server wurde gestoppt"
 
-#: motioneye/server.py:497
+#: motioneye/server.py:495
 msgid "motion haltis"
 msgstr "motion wurde gestoppt"
 
-#: motioneye/server.py:503
+#: motioneye/server.py:501
 msgid "adiaŭ!"
 msgstr "Auf Wiedersehen!"
 
@@ -110,7 +110,7 @@ msgstr "Aufgaben wurden gestartet"
 msgid "taskoj haltis"
 msgstr "Aufgaben wurden gestoppt"
 
-#: motioneye/wsswitch.py:36
+#: motioneye/wsswitch.py:46
 msgid "wsswitch komenciĝis"
 msgstr "wsswitch wurde gestartet"
 
@@ -662,8 +662,8 @@ msgid "Rajtiga ŝlosilo"
 msgstr "Autorisierungsschlüssel"
 
 #: motioneye/templates/main.html:471
-msgid "la ŝlosilo uzata por aŭtentiĝi kun la alŝuta servo (kutime bezonata nur dum agordo)"
-msgstr "der Authentifizierungsschlüssel für den Upload-Dienst (normalerweise nur während der Konfiguration erforderlich)"
+msgid "the key used to authenticate with the upload service, usually only needed during setup; for Google, the whole address of the page that cannot be loaded after allowing access"
+msgstr ""
 
 #: motioneye/templates/main.html:477
 msgid "Akiri ŝlosilon"
